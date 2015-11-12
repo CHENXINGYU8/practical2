@@ -11,6 +11,16 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="EclipseLink" />
+        <datasource-mapping>
+          <factory-entry name="NewPersistenceUnit" value="0b9fb45a-8bf9-4bed-b4ce-774aa92bd02c" />
+        </datasource-mapping>
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -20,5 +30,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.20" level="application_server_libraries" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.35-bin" level="project" />
+    <orderEntry type="library" name="javax.persistence_2.1.0.v201304241213" level="project" />
+    <orderEntry type="library" name="eclipselink" level="project" />
+    <orderEntry type="library" name="javax.persistence_2.1.0.v201304241213" level="project" />
   </component>
 </module>
